@@ -5,12 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
 
+  <!-- Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
+<body>
+<h1 class="visually-hidden">Job listings</h1>
+<div class="site-header"></div>
+
+<main class="main-content">
+  <div class="container">
+    <ul class="job-listing-list">
+      <li class="job-listing-item">
+        <img class="job-listing-img" src="img/photosnap.svg" alt="list-img" width="88" height="88">
+        <div class="job-listing-info">
+          <div class="job-listing-head">
+            <h2 class="job-listing-main">Photosnap</h2>
+            <div class="job-listing-sticker">
+              <span class="job-listing-sticker sticker job-listing-sticker-green">New!</span>
+            <span class="job-listing-sticker sticker job-listing-sticker-black">Featured</span>
+            </div>
+          </div>
+          <h2 class="list-header">Senior Frontend Developer</h2>
+          <div class="nested-list">
+            <div class="nested-list-item">1d ago</div>
+            <div class="nested-list-item">Full Time</div>
+            <div class="nested-list-item">USA only</div>
+          </div>
+        </div>
+
+        <ul class="left-list">
+          <li class="left-list-item">Frontend</li>
+          <li class="left-list-item">Senior</li>
+          <li class="left-list-item">HTML</li>
+          <li class="left-list-item">CSS</li>
+          <li class="left-list-item">JavaScript</li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+</main>
   <script src="js/main.js"></script>
 </body>
 </html>
